@@ -277,6 +277,12 @@ input:checked + label:after {
         width: 50%;
         /* The main section content is 650px wide. */
     }
+    
+    #portfolioProjects1, #portfolioProjects2, #portfolioProjects3, #portfolioProjects4, #portfolioProjects5 {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px 20px 0px;
+    }  
 }
 
 @media screen and (max-width: 768px) {
