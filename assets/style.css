@@ -305,7 +305,14 @@ input:checked + label:after {
         margin-left: 2%;
         /* The main section content is 650px wide. */
         width: 96%;
+    } 
+
+    #portfolioProjects1, #portfolioProjects2, #portfolioProjects3, #portfolioProjects4, #portfolioProjects5 {
+        width: 47%;
+        height: auto;
+        margin: auto;
     }  
+
 }
 
 @media screen and (max-width: 640px) {
@@ -355,5 +362,11 @@ input:checked + label:after {
         /* The main section content is 650px wide. */
         width: 96%;
     }
+
+    #portfolioProjects1, #portfolioProjects2, #portfolioProjects3, #portfolioProjects4, #portfolioProjects5 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    } 
     
 }
