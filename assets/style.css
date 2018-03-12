@@ -323,6 +323,7 @@ input:checked + label:after {
         width: 100%;
     }
     header {
+        position: static;
         background-color: white;
     }
 
